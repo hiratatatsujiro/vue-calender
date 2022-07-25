@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-sheet height="6vh" class="d-flex align-center">
-      <v-btn outlined small class="ma-4" @click="setToday">今日</v-btn>
+      <v-btn outlined small class="ma-4" @click="setToday">今日へジャンプ</v-btn>
       <v-btn icon @click="$refs.calender.prev()">
         <v-icon>mdi-chevron-left</v-icon>
       </v-btn>
